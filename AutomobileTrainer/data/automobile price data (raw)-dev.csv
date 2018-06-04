@@ -1,0 +1,16 @@
+symboling;normalized-losses;make;fuel-type;aspiration;num-of-doors;body-style;drive-wheels;engine-location;wheel-base;length;width;height;curb-weight;engine-type;num-of-cylinders;engine-size;fuel-system;bore;stroke;compression-ratio;horsepower;peak-rpm;city-mpg;highway-mpg;price
+2;192;bmw;gas;std;two;sedan;rwd;front;101.20;176.80;64.80;54.30;2395;ohc;four;108;mpfi;3.50;2.80;8.80;101;5800;23;29;16430
+0;108;nissan;gas;std;four;wagon;fwd;front;100.40;184.60;66.50;56.10;3296;ohcv;six;181;mpfi;3.43;3.27;9.00;152;5200;17;22;14399
+1;118;dodge;gas;std;two;hatchback;fwd;front;93.70;157.30;63.80;50.80;1876;ohc;four;90;2bbl;2.97;3.23;9.40;68;5500;31;38;6377
+0;188;bmw;gas;std;two;sedan;rwd;front;101.20;176.80;64.80;54.30;2710;ohc;six;164;mpfi;3.31;3.19;9.00;121;4250;21;28;20970
+3;?;alfa-romero;gas;std;two;convertible;rwd;front;88.60;168.80;64.10;48.80;2548;dohc;four;130;mpfi;3.47;2.68;9.00;111;5000;21;27;13495
+-1;93;mercedes-benz;diesel;turbo;four;wagon;rwd;front;110.00;190.90;70.30;58.70;3750;ohc;five;183;idi;3.58;3.64;21.50;123;4350;22;25;28248
+0;91;toyota;diesel;std;four;sedan;fwd;front;95.70;166.30;64.40;53.00;2275;ohc;four;110;idi;3.27;3.35;22.50;56;4500;34;36;7898
+1;168;toyota;gas;std;two;sedan;rwd;front;94.50;168.70;64.00;52.60;2265;dohc;four;98;mpfi;3.24;3.08;9.40;112;6600;26;29;9298
+1;119;plymouth;gas;std;two;hatchback;fwd;front;93.70;157.30;63.80;50.80;1918;ohc;four;90;2bbl;2.97;3.23;9.40;68;5500;37;41;5572
+1;104;mazda;gas;std;two;hatchback;fwd;front;93.10;159.10;64.20;54.10;1905;ohc;four;91;2bbl;3.03;3.15;9.00;68;5000;31;38;6795
+1;118;dodge;gas;turbo;two;hatchback;fwd;front;93.70;157.30;63.80;50.80;2128;ohc;four;98;mpfi;3.03;3.39;7.60;102;5500;24;30;7957
+3;194;nissan;gas;turbo;two;hatchback;rwd;front;91.30;170.70;67.90;49.70;3139;ohcv;six;181;mpfi;3.43;3.27;7.80;200;5200;17;23;19699
+3;150;mazda;gas;std;two;hatchback;rwd;front;95.30;169.00;65.70;49.60;2385;rotor;two;70;4bbl;?;?;9.40;101;6000;17;23;13645
+-1;137;mitsubishi;gas;std;four;sedan;fwd;front;96.30;172.40;65.40;51.60;2403;ohc;four;110;spdi;3.17;3.46;7.50;116;5500;23;30;9279
+-1;93;mercedes-benz;diesel;turbo;four;sedan;rwd;front;115.60;202.60;71.70;56.30;3770;ohc;five;183;idi;3.58;3.64;21.50;123;4350;22;25;31600
