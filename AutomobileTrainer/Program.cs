@@ -6,6 +6,7 @@ using Microsoft.ML.Transforms;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.ML.Data;
 
 namespace AutomobileTrainer
 {
@@ -18,8 +19,7 @@ namespace AutomobileTrainer
 
             // import training data (the data is already split into three files using https://github.com/peterdrougge/DataFileSplitter and located in the \data folder of this project.)
             var traindataPath = @"c:\dev\ml\automobile price data (raw)-train.csv";
-            pipeline.Add(new TextLoader<AutomobileData>(traindataPath, useHeader: true, separator: ";"));
-            
+            pipeline.Add(new TextLoader(traindataPath).CreateFrom<AutomobileData>(useHeader: true, separator: ';'));
             // transform features
             pipeline.Add(new ColumnCopier(("price", "Label")));
             pipeline.Add(new ColumnDropper() { Column = new string[] {
@@ -70,7 +70,7 @@ namespace AutomobileTrainer
             Console.WriteLine("=============== Evaluating ===================");
             // import test data (the data is already split into three files using https://github.com/peterdrougge/DataFileSplitter and located in the \data folder of this project.)
             var testdataPath = @"C:\dev\ml\automobile price data (raw)-test.csv";
-            var testdata = new TextLoader<AutomobileData>(testdataPath, useHeader: true, separator: ";");
+            var testdata = new TextLoader(testdataPath).CreateFrom<AutomobileData>(useHeader: true, separator: ';');
             var evaluator = new RegressionEvaluator();
             var metrics = evaluator.Evaluate(model, testdata);
             Console.WriteLine($"Loss= {metrics.LossFn} (..)");
